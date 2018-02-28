@@ -3,24 +3,24 @@
 namespace Katas.Tests
 {
     [TestFixture]
-    public class PlayingWithDigitsTests
+    public class PlayingWithDigitsKataTests
     {
         [Test]
         public void Test1()
         {
-            Assert.AreEqual(1, PlayingWithDigits.digPow(89, 1));
+            Assert.AreEqual(1, PlayingWithDigitsKata.DigPow(89, 1));
         }
 
         [Test]
         public void Test2()
         {
-            Assert.AreEqual(-1, PlayingWithDigits.digPow(92, 1));
+            Assert.AreEqual(-1, PlayingWithDigitsKata.DigPow(92, 1));
         }
 
         [Test]
         public void Test3()
         {
-            Assert.AreEqual(51, PlayingWithDigits.digPow(46288, 3));
+            Assert.AreEqual(51, PlayingWithDigitsKata.DigPow(46288, 3));
         }
     }
 }

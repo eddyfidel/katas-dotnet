@@ -3,7 +3,7 @@
 namespace Katas.Tests
 {
     [TestFixture]
-    public class KatasTests
+    public class FriendOrFoeKataTests
     {
         [Test]
         public void Test1()

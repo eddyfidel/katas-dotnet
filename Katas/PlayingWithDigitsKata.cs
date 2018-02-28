@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace Katas
 {
-    public static class PlayingWithDigits
+    public static class PlayingWithDigitsKata
     {
-        public static long digPow(int n, int p)
+        public static long DigPow(int n, int p)
         {
             char[] characters = n.ToString().ToCharArray();
 
